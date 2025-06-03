@@ -1,0 +1,20 @@
+class dog:
+    def sound(self):
+        print("bow")
+
+class cat:
+    def sound(self):
+        print("meow")
+
+class duck:
+    def sound(self):
+        print("quack")
+
+def makee_sound(obj):
+    obj.sound()
+
+d = dog()
+c = cat()
+du = duck()
+
+makee_sound(du)
