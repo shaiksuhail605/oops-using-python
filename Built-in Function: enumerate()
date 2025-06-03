@@ -1,0 +1,3 @@
+a = "HGFHGJ"
+for i, e in enumerate(a):
+    print(i, e)
