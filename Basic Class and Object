@@ -1,0 +1,6 @@
+class com_lab:
+    bench = 2
+    dustbin = 1
+
+vin = com_lab()  # 'vin' is an object
+print(vin.bench)
