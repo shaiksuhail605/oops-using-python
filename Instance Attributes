@@ -1,0 +1,11 @@
+class com_lab:
+    def __init__(self, amt):
+        self.amt = amt
+
+    def return_back(self):
+        return self.amt
+
+gin = com_lab(10)
+vin = com_lab(20)
+sin = com_lab(30)
+print(sin.return_back())
