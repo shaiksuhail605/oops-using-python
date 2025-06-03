@@ -1,0 +1,8 @@
+def sum(n, i=0):
+    if i == len(n) - 1:
+        return n[i]
+    min_val = sum(n, i + 1)
+    return n[i] if n[i] < min_val else min_val
+
+l = [2, 3, 6, 5]
+print(sum(l))
