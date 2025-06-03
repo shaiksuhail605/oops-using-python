@@ -1,0 +1,11 @@
+class a:
+    gin = 30
+
+class b(a):
+    pass
+
+class c(b):
+    pass
+
+obj = c()
+print(obj.gin)
