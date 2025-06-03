@@ -1,0 +1,10 @@
+class cse:
+    def __init__(self, name):
+        print(f"Details of {name}")
+        self.t = int(input("TELUGU: "))
+        self.e = int(input("ENGLISH: "))
+        self.m = int(input("MATHS: "))
+        self.s = int(input("SCIENCE: "))
+        self.so = int(input("SOCIAL: "))
+
+    def
