@@ -1,0 +1,17 @@
+class a:
+    def __init__(self):
+        print("hi")
+
+class b:
+    def car(self):
+        print("helloo")
+
+class c(a, b):
+    def __init__(self):
+        super().__init__()
+
+    def aero(self):
+        print("how r u")
+
+obj = c()
+obj.aero()
