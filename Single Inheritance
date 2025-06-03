@@ -1,0 +1,8 @@
+class com_lab_a:
+    gin = 56
+
+class com_lab_b(com_lab_a):
+    sin_amt = 80
+
+sin = com_lab_b()
+print(sin.sin_amt + sin.gin)
