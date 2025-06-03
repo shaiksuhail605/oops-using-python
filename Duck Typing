@@ -1,0 +1,9 @@
+class a:
+    def sin(self, amt):
+        print(amt)
+
+class b:
+    def sin(self, amt):
+        print("1", amt)
+
+b().sin(45)
