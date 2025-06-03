@@ -1,0 +1,5 @@
+def sree(a, b):
+    print(a + b)
+
+sree(15, 20)
+sree(5, 20)
