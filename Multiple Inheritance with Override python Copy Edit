@@ -1,0 +1,14 @@
+class a:
+    def bike(self):
+        print("hi")
+
+class b:
+    def car(self):
+        print("helloo")
+
+class c(a, b):
+    def car(self):
+        print("how r u")
+
+obj = c()
+obj.car()
