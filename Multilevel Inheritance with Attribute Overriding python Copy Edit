@@ -1,0 +1,11 @@
+class a:
+    gin = 30
+
+class b(a):
+    gin = 10
+
+class c(b):
+    gin = 40
+
+obj = c()
+print(obj.gin)
