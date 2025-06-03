@@ -1,0 +1,4 @@
+def sree(a, b=0):
+    print(a, b)
+
+sree(10)
