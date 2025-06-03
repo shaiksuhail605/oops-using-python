@@ -1,0 +1,8 @@
+class com_lab:
+    bench = 2
+    dustbin = 1
+
+vin = com_lab()
+sid = com_lab()
+gin = com_lab()
+print(vin.bench, sid.bench)
