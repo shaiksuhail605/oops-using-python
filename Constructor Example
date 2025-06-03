@@ -1,0 +1,15 @@
+class com_lab:
+    bench = 2
+    dustbin = 1
+
+    def __init__(self):
+        print("Welcome")
+
+    def system(self):
+        print("System")
+
+    def projector():
+        print("on")
+
+gin = com_lab()
+gin.system()
