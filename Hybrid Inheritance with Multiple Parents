@@ -1,0 +1,15 @@
+class a:
+    def __init__(self):
+        print("a")
+
+class b(a):
+    def bike(self):
+        print("bike")
+
+class c(a):
+    pass
+
+class m(b, c):
+    pass
+
+m()
