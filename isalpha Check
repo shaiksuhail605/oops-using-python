@@ -1,0 +1,2 @@
+a = "7skjdbf"
+print(a[0].isalpha())
