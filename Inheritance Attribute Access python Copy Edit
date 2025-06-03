@@ -1,0 +1,8 @@
+class com_lab_a:
+    gin = 56
+
+class com_lab_b(com_lab_a):
+    sid = 20
+
+s = com_lab_b()
+print(s.gin)
