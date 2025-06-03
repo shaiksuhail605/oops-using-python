@@ -1,0 +1,4 @@
+def sree(**a):
+    print(a)
+
+sree(rank=1, age=20, roll=21, name="lakshmi")
