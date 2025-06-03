@@ -1,0 +1,2 @@
+a = "HGFHGJ"
+print(a.lower())
