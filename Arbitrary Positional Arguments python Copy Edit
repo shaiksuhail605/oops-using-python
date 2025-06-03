@@ -1,0 +1,10 @@
+def sree(*a):
+    print(a)
+
+sree(2, 6.7, "hi")
+
+def sree(*a):
+    a = list(a)
+    print(a)
+
+sree(2, 6.7, "hi")
