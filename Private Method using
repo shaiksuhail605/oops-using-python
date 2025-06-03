@@ -1,0 +1,8 @@
+class com_lab:
+    def __init__(self):
+        self.__locker()
+
+    def __locker(self):
+        print(1000000)
+
+com_lab()
