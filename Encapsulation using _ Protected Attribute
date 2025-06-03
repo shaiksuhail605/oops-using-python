@@ -1,0 +1,8 @@
+class gin:
+    _a = 10
+
+class sin(gin):
+    def __init__(self):
+        print(super()._a)
+
+sin()
