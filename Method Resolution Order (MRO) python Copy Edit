@@ -1,0 +1,14 @@
+class a:
+    def car(self):
+        print("hi")
+
+class b:
+    def car(self):
+        print("helloo")
+
+class c(a, b):
+    def bike(self):
+        print("how r u")
+
+obj = c()
+obj.car()  # Method from class 'a' due to MRO
