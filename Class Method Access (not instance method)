@@ -1,0 +1,8 @@
+class com_lab:
+    bench = 2
+    dustbin = 1
+
+    def projector():
+        print("on")
+
+com_lab.projector()  # Accessible from class, not instance
