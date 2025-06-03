@@ -1,0 +1,12 @@
+class com_lab:
+    bench = 2
+    dustbin = 1
+
+    def system(self):
+        print("System")
+
+    def projector():
+        print("on")
+
+gin = com_lab()
+com_lab.system(gin)  # Accessing instance method via class
