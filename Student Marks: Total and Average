@@ -1,0 +1,21 @@
+class cse:
+    def __init__(self, t, e, m, s, so, h):
+        self.t = t
+        self.e = e
+        self.m = m
+        self.s = s
+        self.so = so
+        self.h = h
+
+    def total(self):
+        return self.t + self.e + self.m + self.s + self.so + self.h
+
+    def avg(self):
+        return self.total() / 6
+
+gin = cse(45, 34, 34, 56, 67, 34)
+sid = cse(34, 65, 46, 67, 23, 74)
+kin = cse(45, 56, 67, 94, 35, 75)
+
+print(kin.total())
+print(kin.avg())
